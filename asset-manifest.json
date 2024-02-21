@@ -1,17 +1,26 @@
 {
   "files": {
     "main.css": "/emr/static/css/main.f855e6bc.css",
-    "main.js": "/emr/static/js/main.c7e8bd90.js",
+    "main.js": "/emr/static/js/main.bb17f055.js",
     "static/js/453.ed14eaac.chunk.js": "/emr/static/js/453.ed14eaac.chunk.js",
-    "static/media/icon-nav-home-filled.svg": "/emr/static/media/icon-nav-home-filled.01b6f8a26a90638eda1af788b2f45158.svg",
+    "static/media/icon-settings.svg": "/emr/static/media/icon-settings.8d93c0dec14e2308f8772694808efc1b.svg",
+    "static/media/icon-service.svg": "/emr/static/media/icon-service.94b1ad0e2248a7c318effca33164f4ec.svg",
+    "static/media/icon-invoice.svg": "/emr/static/media/icon-invoice.3427c5e4833c21faac6c6e1df395c51f.svg",
+    "static/media/icon-patient.svg": "/emr/static/media/icon-patient.3fc541869a8612624168809baf97c69c.svg",
+    "static/media/icon-medicines.svg": "/emr/static/media/icon-medicines.6de4a73f451bbf6099e0dd01bf48237a.svg",
+    "static/media/icon-reception.svg": "/emr/static/media/icon-reception.5a28780d077adc9ab498d76d45b6c62a.svg",
+    "static/media/icon-appointment.svg": "/emr/static/media/icon-appointment.84f4884151ee0d366eb93fcdcccefaaf.svg",
+    "static/media/icon-doctor.svg": "/emr/static/media/icon-doctor.a51982e075eb92ba0f9c6ad9a4fabd56.svg",
     "index.html": "/emr/index.html",
+    "static/media/icon-campaign.svg": "/emr/static/media/icon-campaign.b97470f57b06aa1cd433814659a8ab0c.svg",
+    "static/media/icon-payment.svg": "/emr/static/media/icon-payment.53a5ce3aaaa4b9ef6e313c2e6248ab73.svg",
     "static/media/icon-nav-home.svg": "/emr/static/media/icon-nav-home.8f8e61735670d7c80c59a9a596e4d2af.svg",
     "main.f855e6bc.css.map": "/emr/static/css/main.f855e6bc.css.map",
-    "main.c7e8bd90.js.map": "/emr/static/js/main.c7e8bd90.js.map",
+    "main.bb17f055.js.map": "/emr/static/js/main.bb17f055.js.map",
     "453.ed14eaac.chunk.js.map": "/emr/static/js/453.ed14eaac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.c7e8bd90.js"
+    "static/js/main.bb17f055.js"
   ]
 }

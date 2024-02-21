@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <Layout>
     <Box>
-      <Paper
+      {/* <Paper
         component="form"
         sx={{
           display: "flex",
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         }}
       >
        
-      </Paper>
+      </Paper> */}
       <Box py={2} px={4} sx={{backgroundColor: "#fff"}}>
         
           <Box width="100%">

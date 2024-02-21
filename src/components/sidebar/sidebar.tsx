@@ -1,10 +1,22 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Box, Hidden, Typography } from '@mui/material'
+import homeIcon from  '../../assets/icons/icon-home.svg'
+import appointmentIcon from  '../../assets/icons/icon-appointment.svg'
+import patientIcon from '../../assets/icons/icon-patient.svg';
+import receptionIcon from '../../assets/icons/icon-reception.svg';
+import doctorIcon from '../../assets/icons/icon-doctor.svg';
+import paymentIcon from '../../assets/icons/icon-payment.svg';
+import invoiceIcon from '../../assets/icons/icon-invoice.svg';
+import serviceIcon from '../../assets/icons/icon-service.svg';
+import medicineIcon from '../../assets/icons/icon-medicines.svg';
+import compaignIcon from '../../assets/icons/icon-campaign.svg';
+import settingIcon from '../../assets/icons/icon-settings.svg';
+//import Icon from '../../assets/icons/'
 const navLinks = [
     {
       name: "Home",
-      icon: "",
+      icon: homeIcon,
       link: "/home",
     },
     // {
@@ -13,20 +25,55 @@ const navLinks = [
     //   link: "/",
     // },
     {
-      name: "Appointment",
-      icon: "",
+      name: "Patients",
+      icon: patientIcon,
+      link: "",
+    },
+    {
+      name: "Receptions",
+      icon: receptionIcon,
+      link: "",
+    },
+    {
+      name: "Doctors",
+      icon: doctorIcon,
+      link: "",
+    },
+    {
+      name: "Appointments",
+      icon: appointmentIcon,
       link: "/appointment",
     },
-    // {
-    //   name: "TV Series",
-    //   icon: "",
-    //   link: "/tv-series",
-    // },
-    // {
-    //   name: "Bookmarks",
-    //   icon: "",
-    //   link: "/bookmarks",
-    // },
+    {
+      name: "Payments",
+      icon: paymentIcon,
+      link: "",
+    },
+    {
+      name: "Invoices",
+      icon: invoiceIcon,
+      link: "",
+    },
+    {
+      name: "services",
+      icon: serviceIcon,
+      link: "",
+    },
+    {
+      name: "Medicines",
+      icon: medicineIcon,
+      link: "",
+    },
+    {
+      name: "Campaigns",
+      icon: compaignIcon,
+      link: "",
+    },
+    {
+      name: "Settings",
+      icon: settingIcon,
+      link: "",
+    }
   ];
 
 
@@ -101,18 +148,18 @@ const Sidebar: React.FC = () => {
                 color: "white",
                 textDecoration: "none",
             }}>
-            {/* <img
+            <img
                   src={item.icon}
                   alt={item.name}
                   style={{
-                    width: "18px",
+                    width: "25px",
                     filter: `${
                       pathname === item.link
                         ? "invert(58%) sepia(14%) saturate(3166%) hue-rotate(215deg) brightness(91%) contrast(87%)"
                         : "invert(84%)"
                     }`,
                   }}
-            /> */}
+            />
             <Hidden mdDown>
                   <Typography>{item.name}</Typography>
             </Hidden>

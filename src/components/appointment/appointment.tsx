@@ -1,8 +1,27 @@
 import React from 'react'
+import Layout from '../../props/layout/layout'
+import { Box, Paper } from '@mui/material'
 
-function Appointment() {
+const Appointment: React.FC = () => {
   return (
-    <div>Appointment</div>
+    <Layout>
+    <Box>
+      <Paper
+        component="form"
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          borderRadius: "default",
+          p: 1,
+          backgroundColor: "#10141f",
+          border: "none",
+        }}
+      >
+       
+      </Paper>
+    </Box>
+    
+  </Layout>
   )
 }
 

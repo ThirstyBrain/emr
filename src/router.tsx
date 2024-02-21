@@ -1,23 +1,22 @@
-import { createBrowserRouter } from "react-router-dom";
-import Login from "./components/login/login";
+import {  createHashRouter } from "react-router-dom";
 import Home from "./components/home/home";
 import Error from "./components/error/error";
 import Appointment from "./components/appointment/appointment";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path:'/',
-        element:<Login />,
+        element:<Home />,
         errorElement:<Error/>
     },
     {
         path: "/home",
         element: <Home />,
-        errorElement: <Error />,
+        errorElement:<Error/>
     },
     {
         path: "/appointment",
         element: <Appointment />,
-        errorElement: <Error />,
+        errorElement:<Error/>
     },
 ]);

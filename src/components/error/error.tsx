@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Error() {
+const Error: React.FC = () => {
   return (
-    <div>Error</div>
+    <div> Error Page always invoke </div>
   )
 }
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emr/static/css/main.f855e6bc.css",
-    "main.js": "/emr/static/js/main.bb17f055.js",
+    "main.js": "/emr/static/js/main.e1434b19.js",
     "static/js/453.ed14eaac.chunk.js": "/emr/static/js/453.ed14eaac.chunk.js",
     "static/media/icon-settings.svg": "/emr/static/media/icon-settings.8d93c0dec14e2308f8772694808efc1b.svg",
     "static/media/icon-service.svg": "/emr/static/media/icon-service.94b1ad0e2248a7c318effca33164f4ec.svg",
@@ -14,13 +14,13 @@
     "index.html": "/emr/index.html",
     "static/media/icon-campaign.svg": "/emr/static/media/icon-campaign.b97470f57b06aa1cd433814659a8ab0c.svg",
     "static/media/icon-payment.svg": "/emr/static/media/icon-payment.53a5ce3aaaa4b9ef6e313c2e6248ab73.svg",
-    "static/media/icon-nav-home.svg": "/emr/static/media/icon-nav-home.8f8e61735670d7c80c59a9a596e4d2af.svg",
+    "static/media/icon-home.svg": "/emr/static/media/icon-home.6ba71d42bf86605e6a237aef3cded8bd.svg",
     "main.f855e6bc.css.map": "/emr/static/css/main.f855e6bc.css.map",
-    "main.bb17f055.js.map": "/emr/static/js/main.bb17f055.js.map",
+    "main.e1434b19.js.map": "/emr/static/js/main.e1434b19.js.map",
     "453.ed14eaac.chunk.js.map": "/emr/static/js/453.ed14eaac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.bb17f055.js"
+    "static/js/main.e1434b19.js"
   ]
 }
